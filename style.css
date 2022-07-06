@@ -1,0 +1,34 @@
+
+body::before{
+    display:block;
+    content: '';
+    height:60px;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+#navbar{
+    box-shadow: 4px -1px 14px 0px #00000087;
+}
+
+.goTop{
+    position: fixed;
+    width:50px;
+    height:50px;
+    background-color: black;
+    color:white;
+    bottom: 40px;
+    right: 50px;
+    text-align: center;
+    border-radius:50%;
+    padding-top:12px;
+    text-decoration:none;
+}
+.goTop:hover{
+    color:red;
+}
+#containerSlide{
+    width:100%;
+}
